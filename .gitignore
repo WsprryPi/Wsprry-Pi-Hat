@@ -1,0 +1,122 @@
+# =========================
+# KiCad Project Files
+# =========================
+
+# Backup and autosave files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*.bak
+*-bak
+*.tmp
+*.autosave
+*.~*
+# KiCad backups
+*-backups/*.
+*.bak
+
+# Production outputs
+production/
+*.zip
+
+# macOS
+.DS_Store
+
+# Lock files
+*.lck
+
+# Plot / fabrication outputs (regenerate as needed)
+*.gbr
+*.gerber
+*.drl
+*.zip
+*.step
+*.stp
+*.wrl
+*.pos
+*.rpt
+*.csv
+
+# Netlists and intermediate files
+*.net
+*.xml
+
+# Simulation / cache
+*.cache
+*.ngspice
+*.raw
+
+# =========================
+# KiCad Library Cache
+# =========================
+
+# Cached libraries (safe to regenerate)
+*-cache.lib
+*-rescue.lib
+*.kicad_sym
+
+# Footprint cache
+fp-info-cache
+
+# =========================
+# 3D Viewer Cache
+# =========================
+*.3dshapes/cache/*
+
+# =========================
+# macOS Junk
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Spotlight
+.Spotlight-V100
+.Trashes
+
+# =========================
+# VSCode
+# =========================
+
+.vscode/
+*.code-workspace
+
+# =========================
+# General Dev Junk
+# =========================
+
+*.log
+*.swp
+*.swo
+*.orig
+
+# =========================
+# Optional (uncomment if needed)
+# =========================
+
+# Ignore local fabrication exports folder
+# fabrication/
+
+# Ignore personal notes or scratch files
+# notes/
+
+# KiCad generated outputs
+*/production/
+*.ipc
+
+# Fabrication toolkit junk
+fabrication-toolkit-options.json
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
